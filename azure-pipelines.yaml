@@ -23,6 +23,6 @@ steps:
   inputs:
     provider: aws
     workingDirectory: '$(System.DefaultWorkingDirectory)/amachira/azure-terraform-aws-CICD'
-    backendServiceAWS: 'AWS-Terraform'
+    backendServiceAWS: 'azureterraforms3'
     backendAWSBucketName: 'anagh-terraform-remote-state'
     backendAWSKey: 'tf/azure-terraform-aws-CICD/anaghterraformrs.tfstate'
