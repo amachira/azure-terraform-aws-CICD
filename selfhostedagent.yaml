@@ -21,7 +21,7 @@ steps:
   displayName: 'Terraform : init'
   inputs:
     provider: 'aws'
-    workingDirectory: '$(System.DefaultWorkingDirectory)/amachira/azure-terraform-aws-CICD'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/azure-terraform-aws-CICD'
     backendServiceAWS: 'azureterraforms3'
     backendAWSBucketName: 'anagh-terraform-remote-state'
     backendAWSKey: 'tf/azure-terraform-aws-CICD/anaghterraformrs.tfstate'
